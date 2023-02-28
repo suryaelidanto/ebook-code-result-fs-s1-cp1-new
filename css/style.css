@@ -145,3 +145,47 @@ section {
 #barsmenu {
     display: none;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .card-container {
+        width: 100%;
+    }
+
+    .left {
+        flex: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right {
+        margin-left: 0px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .skill {
+        flex-direction: column;
+    }
+
+    .item-collapse {
+        display: none;
+    }
+
+    #barsmenu {
+        display: block;
+    }
+
+    .hamburger {
+        flex: 1;
+        display: flex;
+        margin-right: 30px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
