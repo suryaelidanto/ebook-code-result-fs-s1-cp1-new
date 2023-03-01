@@ -243,26 +243,3 @@ select {
   line-height: 140%;
   text-align: justify;
 }
-
-
-.hamburger-nav-container {
-  font-size: 23px;
-  display: none;
-}
-
-.hamburger-nav-container .hamburger-active {
-  background-color: orangered;
-}
-
-.hamburger-nav-container a {
-  color: white;
-  background-color: #9a9a9a;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid #fff;
-}
-
-#barsmenu {
-  display: none;
-}
