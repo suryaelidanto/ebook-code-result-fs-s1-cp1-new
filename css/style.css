@@ -124,29 +124,6 @@ section {
     font-size: 30px;
 }
 
-.hamburger-nav-container {
-    font-size: 23px;
-    display: none;
-}
-
-.hamburger-nav-container .hamburger-active {
-    background-color: orangered;
-}
-
-.hamburger-nav-container a {
-    color: white;
-    background-color: #9a9a9a;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border: 1px solid #fff;
-}
-
-#barsmenu {
-    display: none;
-}
-
-
 @media only screen and (max-width: 900px) {
     .card-container {
         width: 100%;
@@ -171,21 +148,5 @@ section {
 @media only screen and (max-width: 550px) {
     .skill {
         flex-direction: column;
-    }
-
-    .item-collapse {
-        display: none;
-    }
-
-    #barsmenu {
-        display: block;
-    }
-
-    .hamburger {
-        flex: 1;
-        display: flex;
-        margin-right: 30px;
-        align-items: center;
-        justify-content: flex-end;
     }
 }
