@@ -17,19 +17,30 @@
         <li>
           <img src="assets/images/logo.png" alt="logo" />
         </li>
-        <li>
-          <a href=" index.html">Home</a>
+        <li class="item-collapse">
+          <a href="index.html">Home</a>
         </li>
-        <li>
-          <a href=" blog.html" class="active">Blog</a>
+        <li class="item-collapse">
+          <a href="blog.html" class="active">Blog</a>
         </li>
       </ul>
     </div>
 
-    <div class="nav-right">
+    <div class="nav-right item-collapse">
       <a href="contact.html">Contact</a>
     </div>
+    <div class="nav-right" id="barsmenu">
+      <button style="background-color: transparent; border: none; cursor: pointer">
+        <i class="fa-2x fa-solid fa-bars"></i>
+      </button>
+    </div>
   </nav>
+  <div class="hamburger-nav-container" id="hamburger-nav-container">
+    <a href="index.html">Home</a>
+    <a href="blog.html" class="hamburger-active">Blog</a>
+    <a href="contact.html">Contact Me</a>
+  </div>
+
 
   <!-- Blog -->
   <!-- Form -->
